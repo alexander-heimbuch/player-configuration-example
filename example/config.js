@@ -6,7 +6,7 @@ import playlist from "./playlist";
 
 export default {
   // player asset base path, falls back to ./
-  base: "/node_modules/@podlove/web-player/",
+  base: "/player/",
 
   activeTab: "chapters", // default active tab, can be set to [chapters, files, share, playlist]
 
