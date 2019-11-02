@@ -1,0 +1,89 @@
+{
+  "base": "/player/",
+  "activeTab": "chapters",
+  "theme": {
+    "tokens": {
+      "brand": "#166255",
+      "brandDark": "#166255",
+      "brandDarkest": "#1A3A4A",
+      "brandLightest": "#E5EAECFF",
+      "shadeDark": "#807E7C",
+      "shadeBase": "#807E7C",
+      "contrast": "#000",
+      "alt": "#fff"
+    },
+    "fonts": {
+      "ci": {
+        "name": "RobotoBlack",
+        "family": [
+          "RobotoBlack",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 900,
+        "src": ["./assets/Roboto-Black.ttf"]
+      },
+      "regular": {
+        "name": "FiraSansLight",
+        "family": [
+          "FiraSansLight",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 300,
+        "src": ["./assets/FiraSans-Light.ttf"]
+      },
+      "bold": {
+        "name": "FiraSansBold",
+        "family": [
+          "FiraSansBold",
+          "Calibri",
+          "Candara",
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ],
+        "weight": 700,
+        "src": ["./assets/FiraSans-Bold.ttf"]
+      }
+    }
+  },
+  "subscribe-button": {
+    "feed": "https://forschergeist.de/feed/m4a/",
+    "services": {
+      "itunes": "id934797989",
+      "pocket-casts": "https://forschergeist.de/feed/m4a/"
+    },
+    "clients": [
+      "antenna-pod",
+      "apple-podcasts",
+      "beyond-pod",
+      "castro",
+      "clementine",
+      "downcast",
+      "google-podcasts",
+      "gpodder",
+      "i-catcher",
+      "instacast",
+      "itunes",
+      "overcast",
+      "player-fm",
+      "pocket-casts",
+      "pod-grasp",
+      "podcast-addict",
+      "podcast-republic",
+      "podcat",
+      "podscout",
+      "rss-radio"
+    ]
+  },
+  "playlist": "fixtures/playlist.json",
+  "channels": ["twitter", "mail", "link"],
+  "share": "/share.html"
+}

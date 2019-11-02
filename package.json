@@ -1,0 +1,13 @@
+{
+  "name": "player-configuration",
+  "version": "1.0.0",
+  "description": "Player Example Implementation",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  }
+}
