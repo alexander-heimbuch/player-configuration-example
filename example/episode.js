@@ -6,6 +6,9 @@ import transcripts from "./transcripts";
  */
 
 export default {
+  // Configuration Version
+  version: 5,
+
   /**
    * Show Related Information
    */
@@ -139,7 +142,7 @@ export default {
     {
       id: "77",
       name: "Peter Purgathofer",
-      avatar: "/assets/peter-purgathofer_150x150.jpg",
+      avatar: "/assets/peter-purgathofer_128x128.jpg",
       group: { id: "1", slug: "onair", title: "On Air" }
     }
   ],
